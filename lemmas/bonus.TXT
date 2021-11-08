@@ -1,0 +1,393 @@
+!!!В ОПИСАНИИ К ДЗ СКАЗАНО ВЫЛОЖИТЬ В TXT, И Я ЭТО ДЕЛАЮ, НО ЕШЕ ВЫКЛАДЫВАЮ DOCX, ТАМ ВСЕ ВЫДЕЛЕНО И БОЛЕЕ НАГЛЯДНО, И С НИМ УДОБНЕЕ РАБОТАТЬ!!!
+
+# sent_id = 8
+# text = Честной купецъ призадумался и сказалъ потомъ: «Хорошо, дочь моя милая, хорошая и пригожая; привезу я тебѣ таковой вѣнецъ; знаю я за моремъ такова человѣка, который достанетъ мнѣ таковой вѣнецъ; а и есть онъ у одной королевишны заморскія, а и спрятанъ онъ въ кладовой каменной, а и стоитъ та кладовая въ каменной горѣ, глубиной на три сажени, за тремя дверьми желѣзными, за тремя замками нѣмецкими.
+1	Честной	честной	ADJ	A=m,sg,nom,plen	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	prereform=Честной|modern=Честной|oldlemma=честный
+2	купецъ	купец	NOUN	S,m,anim=sg,nom	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	prereform=купецъ|modern=купец|oldlemma=купецъ
+3	призадумался	призадуматься	VERB	V,intr,med=m,sg,pf,praet,indic	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	prereform=призадумался|modern=призадумался|oldlemma=призадуматься
+4	и	и	CCONJ	CONJ	_	5	cc	_	prereform=и|modern=и|oldlemma=и
+5	сказалъ	сказать	VERB	V,pf,tran=m,sg,act,praet,indic	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	prereform=сказалъ|modern=сказал|oldlemma=сказать
+6	потомъ	потом	ADV	ADV-PRO	Degree=Pos|PronType=Dem	3 (тут должно быть 5, потому что "потомъ" соотносится только с "сказалъ", а  не с обоими глаголами)	advmod	_	prereform=потомъ|modern=потом|oldlemma=потомъ|SpaceAfter=No
+7	:	:	PUNCT	_	_	19 (должно быть 9: «хорошо» несет предикативное значение и представляет из себя слово-предложение, которое является первой основой в прямой речи, поэтому именно оно является самым главным элементом в рамках всей прямой речи (я бы еще не определял «хорошо» как частицу, конечно))	punct	_	prereform=:|modern=:|oldlemma=:
+8	«	«	PUNCT	_	_	19 (должно быть 9: «хорошо» несет предикативное значение и представляет из себя слово-предложение, которое является первой основой в прямой речи, поэтому именно оно является самым главным элементом в рамках всей прямой речи)	punct	_	prereform=«|modern=«|oldlemma=«|SpaceAfter=No
+9	Хорошо	хорошо	PART	PART	_	19 (должно быть 5: «хорошо» несет предикативное значение и представляет из себя слово-предложение, которое является первой основой в прямой речи, поэтому именно оно является самым главным элементом в рамках всей прямой речи)	(тут запятая одновременно обособляет parataxis	_	prereform=Хорошо|modern=Хорошо|oldlemma=хороший|SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	prereform=,|modern=,|oldlemma=,
+11	дочь	дочь	NOUN	S,f,anim=sg,nom	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	9	vocative	_	prereform=дочь|modern=дочь|oldlemma=дочь
+12	моя	мой	DET	A-PRO=f,sg,nom	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	prereform=моя|modern=моя|oldlemma=мой
+13	милая	милый	ADJ	A=f,sg,nom,plen	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	prereform=милая|modern=милая|oldlemma=милый|SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	prereform=,|modern=,|oldlemma=,
+15	хорошая	хороший	ADJ	A=f,sg,nom,plen	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	conj	_	prereform=хорошая|modern=хорошая|oldlemma=хороший
+16	и	и	CCONJ	CONJ	_	17	cc	_	prereform=и|modern=и|oldlemma=и
+17	пригожая	пригожий	ADJ	A=f,sg,nom,plen	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	conj	_	prereform=пригожая|modern=пригожая|oldlemma=пригожий|SpaceAfter=No
+18	;	;	PUNCT	_	_	19	punct	_	prereform=;|modern=,|oldlemma=;
+19	привезу	привезти	VERB	V,pf,tran=sg,act,fut,1p,indic	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	 5 (должно быть 9: «хорошо» несет предикативное значение и представляет из себя слово-предложение, которое является первой основой в прямой речи, поэтому именно оно является самым главным элементом в рамках всей прямой речи)	parataxis	_	prereform=привезу|modern=привезу|oldlemma=привести
+20	я	я	PRON	S-PRO,sg,1p=nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	prereform=я|modern=я|oldlemma=я
+21	тебѣ	ты	PRON	S-PRO,sg,2p=dat	Case=Dat|Number=Sing|Person=2|PronType=Prs	19	iobj	_	prereform=тебѣ|modern=тебе|oldlemma=ты
+22	таковой	таковой	DET	A-PRO=m,sg,acc,inan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	23	det	_	prereform=таковой|modern=таковой|oldlemma=таковой
+23	вѣнецъ	венец	NOUN	S,m,inan=sg,acc	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	prereform=вѣнецъ|modern=венец|oldlemma=вѣнецъ|SpaceAfter=No
+24	;	;	PUNCT	_	_	25	punct	_	prereform=;|modern=;|oldlemma=;
+25	знаю	знать	VERB	V,ipf,tran=sg,act,praes,1p,indic	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	19	(должно быть 9: «хорошо» несет предикативное значение и представляет из себя слово-предложение, которое является первой основой в прямой речи, поэтому именно оно является самым главным элементом в рамках всей прямой речи) conj	_	prereform=знаю|modern=знаю|oldlemma=знать
+26	я	я	PRON	S-PRO,sg,1p=nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	prereform=я|modern=я|oldlemma=я
+27	за	за	ADP	PR	_	28	case	_	prereform=за|modern=за|oldlemma=за
+28	моремъ	море	NOUN	S,n,inan=sg,ins	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	25	obl	_	prereform=моремъ|modern=морем|oldlemma=морем
+29	такова	таковой	DET	A-PRO=m,sg,acc,anim=anom	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem|Variant=Short 	30	det	_	prereform=такова|modern=такова|oldlemma=таков
+30	человѣка	человек	NOUN	S,m,anim=sg,acc	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	prereform=человѣка|modern=человека|oldlemma=человѣк|SpaceAfter=No
+31	,	,	PUNCT	_	_	25 (должно быть 33, так как эта запятает выделяет придаточную часть)	punct	_	prereform=,|modern=,|oldlemma=,
+32	который	который	PRON	A-PRO=m,sg,nom	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	33	nsubj	_	prereform=который|modern=который|oldlemma=который
+33	достанетъ	достать	VERB	V,pf,tran,act=sg,fut,3p,indic	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	 25	acl:relcl	_	prereform=достанетъ|modern=достанет|oldlemma=достанетъть
+34	мнѣ	я	PRON	S-PRO,sg,1p=dat	Case=Dat|Number=Sing|Person=1|PronType=Prs	33	iobj	_	prereform=мнѣ|modern=мне|oldlemma=я
+35	таковой	таковой	DET	A-PRO=m,sg,acc,inan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	36	det	_	prereform=таковой|modern=таковой|oldlemma=таковой
+36	вѣнецъ	венец	NOUN	S,m,inan=sg,acc	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	33	obj	_	prereform=вѣнецъ|modern=венец|oldlemma=вѣнецъ|SpaceAfter=No
+37	;	;	PUNCT	_	_	40	punct	_	prereform=;|modern=;|oldlemma=;
+38	а	а	CCONJ	CONJ	_	40	cc	_	prereform=а|modern=а|oldlemma=а
+39	и	и	CCONJ	CONJ	_	38	(должно быть 40, т.к. союзы «а» и «и» выполняют сочинительную функцию независимо друг от друга, не подчиняются друг другу и лишь формируют единое комплексное значение) fixed	_	prereform=и|modern=и|oldlemma=и
+40	есть	быть	VERB	V,ipf,intr,act=sg,praes,3p,indic	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9 (должно быть 33, я представляю предикативную структуру так: 1)призадумался-сказал 2)(от сказал) хорошо-привезу-знаю 3)(от знаю) достанет 4)(от достанет) есть-спрятан-стоит)	conj	_	prereform=есть|modern=есть|oldlemma=быть
+41	онъ	он	PRON	S-PRO,m,sg,3p=nom	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	prereform=онъ|modern=он|oldlemma=онъ
+42	у	у	ADP	PR	_	44	case	_	prereform=у|modern=у|oldlemma=у
+43	одной	один	DET	A-PRO=f,sg,gen	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind	44	det	_	prereform=одной|modern=одной|oldlemma=один
+44	королевишны	королевишна	NOUN	S,f,anim=sg,gen	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	40	obl	_	prereform=королевишны|modern=королевишны|oldlemma=королевишный
+45	заморскія	заморский	ADJ	A=f,sg,gen,plen=anom	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	44	amod	_	prereform=заморскія|modern=заморския|oldlemma=заморский|SpaceAfter=No
+46	,	,	PUNCT	_	_	49	punct	_	prereform=,|modern=,|oldlemma=,
+47	а	а	CCONJ	CONJ	_	49	cc	_	prereform=а|modern=а|oldlemma=а
+48	и	и	CCONJ	CONJ	_	47	(должно быть 49, т.к. союзы «а» и «и» выполняют сочинительную функцию независимо друг от друга, не подчиняются друг другу и лишь формируют единое комплексное значение) fixed	_	prereform=и|modern=и|oldlemma=и
+49	спрятанъ	спрятать	VERB	V,pf,tran=partcp,m,sg,brev,pass,praet	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	40	conj	_	prereform=спрятанъ|modern=спрятан|oldlemma=спрятать
+50	онъ	он	PRON	S-PRO,m,sg,3p=nom	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	49	nsubj:pass	_	prereform=онъ|modern=он|oldlemma=онъ
+51	въ	в	ADP	PR	_	52	case	_	prereform=въ|modern=в|oldlemma=въ
+52	кладовой	кладовая	NOUN	S,f,inan=sg,loc	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	49	obl	_	prereform=кладовой|modern=кладовой|oldlemma=кладовая
+53	каменной	каменный	ADJ	A=f,sg,loc,plen	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	52	amod	_	prereform=каменной|modern=каменной|oldlemma=каменный|SpaceAfter=No
+54	,	,	PUNCT	_	_	57	punct	_	prereform=,|modern=,|oldlemma=,
+55	а	а	CCONJ	CONJ	_	57	cc	_	prereform=а|modern=а|oldlemma=а
+56	и	и	CCONJ	CONJ	_	55	(должно быть 57, т.к. союзы «а» и «и» выполняют сочинительную функцию независимо друг от друга, не подчиняются друг другу и лишь формируют единое комплексное значение) fixed	_	prereform=и|modern=и|oldlemma=и
+57	стоитъ	стоять	VERB	V,ipf,intr,act=sg,praes,3p,indic	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	40	conj	_	prereform=стоитъ|modern=стоит|oldlemma=стоитъ
+58	та	тот	DET	A-PRO=f,sg,nom	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	59	det¬¬	_	prereform=та|modern=та|oldlemma=тот
+59	кладовая	кладовая	NOUN	S,f,inan=sg,nom	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	57	nsubj	_	prereform=кладовая|modern=кладовая|oldlemma=кладовой
+60	въ	в	ADP	PR	_	62	case	_	prereform=въ|modern=в|oldlemma=въ
+61	каменной	каменный	ADJ	A=f,sg,loc,plen	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	62	amod	_	prereform=каменной|modern=каменной|oldlemma=каменный
+62	горѣ	гора	NOUN	S,f,inan=sg,loc	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	57	obl	_	prereform=горѣ|modern=горе|oldlemma=гора|SpaceAfter=No
+63	,	,	PUNCT	_	_	64	punct	_	prereform=,|modern=,|oldlemma=,
+64	глубиной	глубина	NOUN	S,f,inan=sg,ins	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	62	nmod	_	prereform=глубиной|modern=глубиной|oldlemma=глубина
+65	на	на	ADP	PR	_	67	case	_	prereform=на|modern=на|oldlemma=на
+66	три	три	NUM	NUM=acc,inan	Animacy=Inan|Case=Acc|NumForm=Word|NumType=Card	67	nummod:gov	_	prereform=три|modern=три|oldlemma=три
+67	сажени	сажень	NOUN	S,f,inan=sg,gen	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	64	nmod	_	prereform=сажени|modern=сажени|oldlemma=сажень|SpaceAfter=No
+68	,	,	PUNCT	_	_	71	punct	_	prereform=,|modern=,|oldlemma=,
+69	за	за	ADP	PR	_	71	case	_	prereform=за|modern=за|oldlemma=за
+70	тремя	три	NUM	NUM=ins	Case=Ins|NumForm=Word|NumType=Card	71	nummod	_	prereform=тремя|modern=тремя|oldlemma=три
+71	дверьми	дверь	NOUN	S,f,inan=pl,ins	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	62	conj	_	prereform=дверьми|modern=дверьми|oldlemma=дверь
+72	желѣзными	железный	ADJ	A=pl,ins,plen	Case=Ins|Degree=Pos|Number=Plur	71	amod	_	prereform=желѣзными|modern=железными|oldlemma=желѣзный|SpaceAfter=No
+73	,	,	PUNCT	_	_	76	punct	_	prereform=,|modern=,|oldlemma=,
+74	за	за	ADP	PR	_	76	case	_	prereform=за|modern=за|oldlemma=за
+75	тремя	три	NUM	NUM=ins	Case=Ins|NumForm=Word|NumType=Card	76	nummod	_	prereform=тремя|modern=тремя|oldlemma=три
+76	замками	замок	NOUN	S,m,inan=pl,ins	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	62 (логичнее, чтобы было 71: двери с железными замками, а не просто стоит за деврьми, за замками, но такая трактовка тоже возможна)	conj	_	prereform=замками|modern=замками|oldlemma=замок
+77	нѣмецкими	немецкий	ADJ	A=pl,ins,plen	Case=Ins|Degree=Pos|Number=Plur	76	amod	_	prereform=нѣмецкими|modern=немецкими|oldlemma=нѣмецкий|SpaceAfter=No
+78	.	.	PUNCT	_	_	3	punct	_	prereform=.|modern=.|oldlemma=.~
+
+# sent_id = 9b
+# text = Не вози ты мнѣ золотой и серебряной парчи, ни черныхъ мѣховъ соболя сибирскаго, ни ожерелья жемчуга бурмицкаго, ни золота вѣнца самоцвѣтнаго; а привези ты мнѣ тувалетъ изъ хрусталю восточнаго, цѣльнаго, безпорочнаго, чтобы, глядя въ него, видѣла я всю красоту поднебесную и чтобъ смотрясь въ него, я не стáрилась и красота бъ моя дѣвичья прибавлялася».
+1	Не	не	PART	PART	Polarity=Neg	2	advmod	_	prereform=Не|modern=Не|oldlemma=не
+2	вози	возить	VERB	V,ipf,tran=sg,act,2p,imper	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	prereform=вози|modern=вози|oldlemma=возить
+3	ты	ты	PRON	S-PRO,sg,2p=nom	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	prereform=ты|modern=ты|oldlemma=ты
+4	мнѣ	я	PRON	S-PRO,sg,1p=dat	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	prereform=мнѣ|modern=мне|oldlemma=я
+5	золотой	золотой	ADJ	A=f,sg,gen,plen	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	prereform=золотой|modern=золотой|oldlemma=золотой
+6	и	и	CCONJ	CONJ	_	7	cc	_	prereform=и|modern=и|oldlemma=и
+7	серебряной	серебряный	ADJ	A=f,sg,gen,plen	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	conj	_	prereform=серебряной|modern=серебряной|oldlemma=серебряный
+8	парчи	парча	NOUN	S,f,inan=sg,gen	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obj	_	prereform=парчи|modern=парчи|oldlemma=парча|SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	prereform=,|modern=,|oldlemma=,
+10	ни	ни	CCONJ	CONJ	Polarity=Neg	12	cc	_	prereform=ни|modern=ни|oldlemma=ни
+11	черныхъ	черный	ADJ	A=pl,gen,plen	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	prereform=черныхъ|modern=чёрных|oldlemma=черный
+12	мѣховъ	мех	NOUN	S,m,inan=pl,gen	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	conj	_	prereform=мѣховъ|modern=мехов|oldlemma=мѣхов
+13	соболя	соболь	NOUN	S,m,inan=sg,gen	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	prereform=соболя|modern=соболя|oldlemma=соболь
+14	сибирскаго	сибирский	ADJ	A=m,sg,gen,plen	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	prereform=сибирскаго|modern=сибирского|oldlemma=сибирский|SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	prereform=,|modern=,|oldlemma=,
+16	ни	ни	CCONJ	CONJ	Polarity=Neg	17	cc	_	prereform=ни|modern=ни|oldlemma=ни
+17	ожерелья	ожерелье	NOUN	S,n,inan=sg,gen	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	conj	_	prereform=ожерелья|modern=ожерелья|oldlemma=ожерелье
+18	жемчуга	жемчуг	NOUN	S,m,inan=sg,gen	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	prereform=жемчуга|modern=жемчуга|oldlemma=жемчуг
+19	бурмицкаго	бурмицкий	ADJ	A=m,sg,gen,plen	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	prereform=бурмицкаго|modern=бурмицкого|oldlemma=бурмицкаг|SpaceAfter=No
+20	,	,	PUNCT	_	_	22	(должно быть 23: золота венец, а не золото венца, венец - главное слово) punct	_	prereform=,|modern=,|oldlemma=,
+21	ни	ни	CCONJ	CONJ	Polarity=Neg	22 (должно быть 23: золота венец, а не золото венца, венец - главное слово)	cc	_	prereform=ни|modern=ни|oldlemma=ни
+22	золота	золото	NOUN	S,n,inan=sg,gen	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8  (должно быть 23: золота венец, а не золото венца, венец - главное слово)	conj	_	prereform=золота|modern=золота|oldlemma=золото
+23	вѣнца	венец	NOUN	S,m,inan=sg,gen	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22  (должно быть 8: золота венец, а не золото венца, венец - главное слово)	nmod	_	prereform=вѣнца|modern=венца|oldlemma=вѣнец
+24	самоцвѣтнаго	самоцветный	ADJ	A=m,sg,gen,plen	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	prereform=самоцвѣтнаго|modern=самоцветного|oldlemma=самоцвѣтный|SpaceAfter=No
+25	;	;	PUNCT	_	_	27	punct	_	prereform=;|modern=,|oldlemma=;
+26	а	а	CCONJ	CONJ	_	27	cc	_	prereform=а|modern=а|oldlemma=а
+27	привези	привезти	VERB	V,pf,tran=sg,act,2p,imper	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	2	conj	_	prereform=привези|modern=привези|oldlemma=привезить
+28	ты	ты	PRON	S-PRO,sg,2p=nom	Case=Nom|Number=Sing|Person=2|PronType=Prs	27	nsubj	_	prereform=ты|modern=ты|oldlemma=ты
+29	мнѣ	я	PRON	S-PRO,sg,1p=dat	Case=Dat|Number=Sing|Person=1|PronType=Prs	27	iobj	_	prereform=мнѣ|modern=мне|oldlemma=я
+30	тувалетъ	тувалет	NOUN	S,m,inan=sg,acc	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obj	_	prereform=тувалетъ|modern=тувалет|oldlemma=тувалет
+31	изъ	из	ADP	PR	_	32	case	_	prereform=изъ|modern=из|oldlemma=изъ
+32	хрусталю	хрусталь	NOUN	S,m,inan=sg,par	Animacy=Inan|Case=Par|Gender=Masc|Number=Sing	30	nmod	_	prereform=хрусталю|modern=хрусталю|oldlemma=хрусталь
+33	восточнаго	восточный	ADJ	A=m,sg,gen,plen	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	prereform=восточнаго|modern=восточного|oldlemma=восточный|SpaceAfter=No
+34	,	,	PUNCT	_	_	35	punct	_	prereform=,|modern=,|oldlemma=,
+35	цѣльнаго	цельный	ADJ	A=m,sg,gen,plen	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	33	conj	_	prereform=цѣльнаго|modern=цельного|oldlemma=цѣльный|SpaceAfter=No
+36	,	,	PUNCT	_	_	37	punct	_	prereform=,|modern=,|oldlemma=,
+37	безпорочнаго	беспорочный	ADJ	A=m,sg,gen,plen	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	33	conj	_	prereform=безпорочнаго|modern=беспорочного|oldlemma=безпорочный|SpaceAfter=No
+38	,	,	PUNCT	_	_	45	punct	_	prereform=,|modern=,|oldlemma=,
+39	чтобы	чтобы	SCONJ	CONJ	Mood=Cnd	45	mark	_	prereform=чтобы|modern=чтобы|oldlemma=чтобы|SpaceAfter=No
+40	,	,	PUNCT	_	_	39 (должно быть 41: вместе с запятой на 44 позиции они обособляют деепричастный оборот)	punct	_	prereform=,|modern=,|oldlemma=,
+41	глядя	глядеть	VERB	V,ipf,intr=ger,act,praes	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	45	advcl	_	prereform=глядя|modern=глядя|oldlemma=глядеть
+42	въ	в	ADP	PR	_	43	case	_	prereform=въ|modern=в|oldlemma=въ
+43	него	он	PRON	S-PRO,m,sg,3p=acc	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	obl	_	prereform=него|modern=него|oldlemma=он|SpaceAfter=No
+44	,	,	PUNCT	_	_	41	punct	_	prereform=,|modern=,|oldlemma=,
+45	видѣла	видеть	VERB	V,ipf,tran=f,sg,act,praet,indic	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	27	advcl	_	prereform=видѣла|modern=видела|oldlemma=видѣть
+46	я	я	PRON	S-PRO,sg,1p=nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	45	nsubj	_	prereform=я|modern=я|oldlemma=я
+47	всю	весь	DET	A-PRO=f,sg,acc	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	48	det	_	prereform=всю|modern=всю|oldlemma=весь
+48	красоту	красота	NOUN	S,f,inan=sg,acc	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	45	obj	_	prereform=красоту|modern=красоту|oldlemma=красота
+49	поднебесную	поднебесный	ADJ	A=f,sg,acc,plen	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	48	amod	_	prereform=поднебесную|modern=поднебесную|oldlemma=поднебесный
+50	и	и	CCONJ	CONJ	_	58	cc	_	prereform=и|modern=и|oldlemma=и
+51	чтобъ	чтоб	SCONJ	CONJ	Mood=Cnd	52	(должно быть 58:  подчинительный союз подчиняется главному слову в своей части) mark	_	prereform=чтобъ|modern=чтоб|oldlemma=чтобъ|modernAfter=,
+52	смотрясь	смотреться	VERB	V,ipf,intr,med=ger,praes	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	58	advcl	_	prereform=смотрясь|modern=смотрясь|oldlemma=смотриться
+53	въ	в	ADP	PR	_	54	case	_	prereform=въ|modern=в|oldlemma=въ
+54	него	он	PRON	S-PRO,m,sg,3p=acc	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	52	obl	_	prereform=него|modern=него|oldlemma=он|SpaceAfter=No
+55	,	,	PUNCT	_	_	52	punct	_	prereform=,|modern=,|oldlemma=,
+56	я	я	PRON	S-PRO,sg,1p=nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	58	nsubj	_	prereform=я|modern=я|oldlemma=я
+57	не	не	PART	PART	Polarity=Neg	58	advmod	_	prereform=не|modern=не|oldlemma=не
+58	стáрилась	стариться	VERB	V,ipf,intr,med=f,sg,praet,indic	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	45	conj	_	prereform=стáрилась|modern=старилась|oldlemma=стáриться
+59	и	и	CCONJ	CONJ	_	64	cc	_	prereform=и|modern=и|oldlemma=и
+60	красота	красота	NOUN	S,f,inan=sg,nom	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	64	nsubj	_	prereform=красота|modern=красота|oldlemma=красота
+61	бъ	б	AUX	PART	Mood=Cnd	64	aux	_	prereform=бъ|modern=б|oldlemma=бъ
+62	моя	мой	DET	A-PRO=f,sg,nom	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	60	det	_	prereform=моя|modern=моя|oldlemma=мой
+63	дѣвичья	девичий	ADJ	A=f,sg,nom,plen	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	60	amod	_	prereform=дѣвичья|modern=девичья|oldlemma=дѣвичья
+64	прибавлялася	прибавляться	VERB	V,ipf,intr,med=f,sg,praet,indic=anom	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	45	conj	_	prereform=прибавлялася|modern=прибавлялася|oldlemma=прибавляться|SpaceAfter=No
+65	»	»	PUNCT	_	_	2	punct	_	prereform=»|modern=»|oldlemma=»|SpaceAfter=No
+66	.	.	PUNCT	_	_	2	punct	_	prereform=.|modern=.|oldlemma=.|SpacesAfter=\n\n~
+
+# sent_id = 9c
+# text = Призадумался честной купецъ, и подумавъ мало ли, много ли времени, говоритъ ей таковыя слова: «Хорошо, дочь моя милая, хорошая и пригожая, достану я тебѣ таковой хрустальный тувалетъ; а и есть онъ у дочери короля персидскаго, молодой королевишны, красоты несказанной, неписанной и негаданной; и схороненъ тотъ тувалетъ въ терему каменномъ, высокіимъ, и стоитъ онъ на горѣ каменной, вышина той горы въ триста сажень, за семью дверьми желѣзными, за семью замками нѣмецкими, и ведутъ къ тому терему ступеней три тысячи, и на каждой ступени стоитъ по воину персидскому и день и ночь, съ саблею на голó булатною, и ключи отъ тѣхъ дверей желѣзныихъ носитъ королевишна на поясѣ.
+1	Призадумался	призадуматься	VERB	V,intr,med=m,sg,pf,praet,indic	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	prereform=Призадумался|modern=Призадумался|oldlemma=призадуматься
+2	честной	честной	ADJ	A=m,sg,nom,plen	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	prereform=честной|modern=честной|oldlemma=честный
+3	купецъ	купец	NOUN	S,m,anim=sg,nom	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	prereform=купецъ|modern=купец|oldlemma=купецъ|SpaceAfter=No
+4	,	,	PUNCT	_	_	14	punct	_	Modern=SkipPunct|oldlemma=,
+5	и	и	CCONJ	CONJ	_	14	cc	_	prereform=и|modern=и|oldlemma=и|modernAfter=,
+6	подумавъ	подумать	VERB	V,pf,intr,act=ger,praet	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	14	advcl	_	prereform=подумавъ|modern=подумав|oldlemma=подумавъ
+7	мало	мало	NUM	ADV	Case=Acc|NumForm=Word|NumType=Card	12	nummod:gov	_	prereform=мало|modern=мало|oldlemma=мало
+8	ли	ли	PART	PART	_	7	advmod	_	prereform=ли|modern=ли|oldlemma=ли|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	prereform=,|modern=,|oldlemma=,
+10	много	много	NUM	NUM=acc	Case=Acc|NumForm=Word|NumType=Card	7	conj	_	prereform=много|modern=много|oldlemma=много
+11	ли	ли	PART	CONJ	_	10	advmod	_	prereform=ли|modern=ли|oldlemma=ли
+12	времени	время	NOUN	S,n,inan=sg,gen	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl:tmod	_	prereform=времени|modern=времени|oldlemma=время|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	(доллжно быть 6: эта запятая закрывает деепричастный оборот) punct	_	prereform=,|modern=,|oldlemma=,
+14	говоритъ	говорить	VERB	V,ipf,tran=sg,act,praes,3p,indic	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	prereform=говоритъ|modern=говорит|oldlemma=говоритъть
+15	ей	она	PRON	S-PRO,f,sg,3p=dat	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	iobj	_	prereform=ей|modern=ей|oldlemma=она
+16	таковыя	таковой	DET	A-PRO=pl,acc,inan	Animacy=Inan|Case=Acc|Number=Plur|PronType=Dem	17	det	_	prereform=таковыя|modern=таковые|oldlemma=таковой
+17	слова	слово	NOUN	S,n,inan=pl,acc	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	14	obj	_	prereform=слова|modern=слова|oldlemma=слово|SpaceAfter=No
+18	:	:	PUNCT	_	_	30 (должно быть 20: «хорошо» несет предикативное значение и представляет из себя слово-предложение, которое является первой основой в прямой речи, поэтому именно оно является самым главным элементом в рамках всей прямой речи)	punct	_	prereform=:|modern=:|oldlemma=:
+19	«	«	PUNCT	_	_	30	(должно быть 20: «хорошо» несет предикативное значение и представляет из себя слово-предложение, которое является первой основой в прямой речи, поэтому именно оно является самым главным элементом в рамках всей прямой речи) punct	_	prereform=«|modern=«|oldlemma=«|SpaceAfter=No
+20	Хорошо	хорошо	PART	PART	_	30	(должно быть 14: «хорошо» несет предикативное значение и представляет из себя слово-предложение, которое является первой основой в прямой речи, поэтому именно оно является самым главным элементом в рамках всей прямой речи) parataxis	_	prereform=Хорошо|modern=Хорошо|oldlemma=хороший|SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	prereform=,|modern=,|oldlemma=,
+22	дочь	дочь	NOUN	S,f,anim=sg,nom	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	20	vocative	_	prereform=дочь|modern=дочь|oldlemma=дочь
+23	моя	мой	DET	A-PRO=f,sg,nom	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det	_	prereform=моя|modern=моя|oldlemma=мой
+24	милая	милый	ADJ	A=f,sg,nom,plen	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	prereform=милая|modern=милая|oldlemma=милый|SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	prereform=,|modern=,|oldlemma=,
+26	хорошая	хороший	ADJ	A=f,sg,nom,plen	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	24	conj	_	prereform=хорошая|modern=хорошая|oldlemma=хороший
+27	и	и	CCONJ	CONJ	_	28	cc	_	prereform=и|modern=и|oldlemma=и
+28	пригожая	пригожий	ADJ	A=f,sg,nom,plen	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	24	conj	_	prereform=пригожая|modern=пригожая|oldlemma=пригожий|SpaceAfter=No
+29	,	,	PUNCT	_	_	22	punct	_	prereform=,|modern=,|oldlemma=,
+30	достану	достать	VERB	V,pf,tran,act=sg,fut,1p,indic	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act 	17	(должно быть 20: «хорошо» несет предикативное значение и представляет из себя слово-предложение, которое является первой основой в прямой речи, поэтому именно оно является самым главным элементом в рамках всей прямой речи) parataxis	_	prereform=достану|modern=достану|oldlemma=достать
+31	я	я	PRON	S-PRO,sg,1p=nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	30	nsubj	_	prereform=я|modern=я|oldlemma=я
+32	тебѣ	ты	PRON	S-PRO,sg,2p=dat	Case=Dat|Number=Sing|Person=2|PronType=Prs	30	iobj	_	prereform=тебѣ|modern=тебе|oldlemma=ты
+33	таковой	таковой	DET	A-PRO=m,sg,acc,inan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	35	det	_	prereform=таковой|modern=таковой|oldlemma=таковой
+34	хрустальный	хрустальный	ADJ	A=m,sg,acc,inan,plen	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	prereform=хрустальный|modern=хрустальный|oldlemma=хрустальный
+35	тувалетъ	тувалет	NOUN	S,m,inan=sg,acc	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obj	_	prereform=тувалетъ|modern=тувалет|oldlemma=тувалетъ|SpaceAfter=No
+36	;	;	PUNCT	_	_	39	punct	_	prereform=;|modern=;|oldlemma=;
+37	а	а	CCONJ	CONJ	_	39	cc	_	prereform=а|modern=а|oldlemma=а
+38	и	и	CCONJ	CONJ	_	37	(должно быть 39, т.к. союзы «а» и «и» выполняют сочинительную функцию независимо друг от друга, не подчиняются друг другу и лишь формируют единое комплексное значение)  fixed	_	prereform=и|modern=и|oldlemma=и
+39	есть	быть	VERB	V,ipf,intr,act=sg,praes,3p,indic	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	conj	_	prereform=есть|modern=есть|oldlemma=быть
+40	онъ	он	PRON	S-PRO,m,sg,3p=nom	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	nsubj	_	prereform=онъ|modern=он|oldlemma=онъ
+41	у	у	ADP	PR	_	42	case	_	prereform=у|modern=у|oldlemma=у
+42	дочери	дочь	NOUN	S,f,anim=sg,gen	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	39	obl	_	prereform=дочери|modern=дочери|oldlemma=дочь
+43	короля	король	NOUN	S,m,anim=sg,gen	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	prereform=короля|modern=короля|oldlemma=король
+44	персидскаго	персидский	ADJ	A=m,sg,gen,plen	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	43	amod	_	prereform=персидскаго|modern=персидского|oldlemma=персидский|SpaceAfter=No
+45	,	,	PUNCT	_	_	47	punct	_	prereform=,|modern=,|oldlemma=,
+46	молодой	молодой	ADJ	A=f,sg,gen,plen	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	47	amod	_	prereform=молодой|modern=молодой|oldlemma=молодой
+47	королевишны	королевишна	NOUN	S,f,anim=sg,gen	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	43	(должно быть 42: это приложение, зависящее от «дочери», а не «короля») appos	_	prereform=королевишны|modern=королевишны|oldlemma=королевишна|SpaceAfter=No
+48	,	,	PUNCT	_	_	49	punct	_	prereform=,|modern=,|oldlemma=,
+49	красоты	красота	NOUN	S,f,inan=sg,gen	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	40         (должно быть 47, т.к. это несогласовонное опредление, зависящее от «королевишны») nmod	_	prereform=красоты|modern=красоты|oldlemma=красота
+50	несказанной	несказанный	ADJ	A=f,sg,gen,plen	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	49	amod	_	prereform=несказанной|modern=несказанной|oldlemma=несказанный|SpaceAfter=No
+51	,	,	PUNCT	_	_	52	punct	_	prereform=,|modern=,|oldlemma=,
+52	неписанной	неописанный	ADJ	A=f,sg,gen,plen	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	50	conj	_	prereform=неписанной|modern=неописанной|oldlemma=неписанный
+53	и	и	CCONJ	CONJ	_	54	cc	_	prereform=и|modern=и|oldlemma=и
+54	негаданной	негаданный	ADJ	A=f,sg,gen,plen	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	50	conj	_	prereform=негаданной|modern=негаданной|oldlemma=негаданный|SpaceAfter=No
+55	;	;	PUNCT	_	_	57	punct	_	prereform=;|modern=;|oldlemma=;
+56	и	и	CCONJ	CONJ	_	57	cc	_	prereform=и|modern=и|oldlemma=и
+57	схороненъ	схоронить	VERB	V,pf,tran=partcp,m,sg,brev,pass,praet	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	30	conj	_	prereform=схороненъ|modern=схоронен|oldlemma=схоронить
+58	тотъ	тот	DET	A-PRO=m,sg,nom	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	59	det	_	prereform=тотъ|modern=тот|oldlemma=тотъ
+59	тувалетъ	тувалет	NOUN	S,m,inan=sg,nom	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	57	nsubj:pass	_	prereform=тувалетъ|modern=тувалет|oldlemma=тувалет
+60	въ	в	ADP	PR	_	61	case	_	prereform=въ|modern=в|oldlemma=въ
+61	терему	терем	NOUN	S,m,inan=sg,loc2	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	57	obl	_	prereform=терему|modern=терему|oldlemma=терем
+62	каменномъ	каменный	ADJ	A=m,sg,loc,plen	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	61	amod	_	prereform=каменномъ|modern=каменном|oldlemma=каменный|SpaceAfter=No
+63	,	,	PUNCT	_	_	64	punct	_	prereform=,|modern=,|oldlemma=,
+64	высокіимъ	высокий	ADJ	A=m,sg,loc,plen=anom	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	62	conj	_	prereform=высокіимъ|modern=высокиим|oldlemma=высокіимый|SpaceAfter=No
+65	,	,	PUNCT	_	_	67	punct	_	prereform=,|modern=,|oldlemma=,
+66	и	и	CCONJ	CONJ	_	67	cc	_	prereform=и|modern=и|oldlemma=и
+67	стоитъ	стоять	VERB	V,ipf,intr,act=sg,praes,3p,indic	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	conj	_	prereform=стоитъ|modern=стоит|oldlemma=стоитънуть
+68	онъ	он	PRON	S-PRO,m,sg,3p=nom	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	67	nsubj	_	prereform=онъ|modern=он|oldlemma=онъ
+69	на	на	ADP	PR	_	70	case	_	prereform=на|modern=на|oldlemma=на
+70	горѣ	гора	NOUN	S,f,inan=sg,loc	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	67	obl	_	prereform=горѣ|modern=горе|oldlemma=гора
+71	каменной	каменный	ADJ	A=f,sg,loc,plen	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	70	amod	_	prereform=каменной|modern=каменной|oldlemma=каменный|SpaceAfter=No
+72	,	,	PUNCT	_	_	73	(должно быть 78: это отдельная основа более низкого уровня, соотносящаяся с предложением со сказуемым «стоитъ», представленная составным именным сказуемым с опущенным глаголом-связкой с несогласованной именной частью)	punct	_	prereform=,|modern=,|oldlemma=,
+73	вышина	вышина	NOUN	S,f,inan=sg,nom	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	70 (должно быть 78: это отдельная основа более низкого уровня, соотносящаяся с предложением со сказуемым «стоитъ», представленная составным именным сказуемым с опущенным глаголом-связкой с несогласованной именной частью)		parataxis	_	prereform=вышина|modern=вышина|oldlemma=вышина
+74	той	тот	DET	A-PRO=f,sg,gen	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	75	det	_	prereform=той|modern=той|oldlemma=тот
+75	горы	гора	NOUN	S,f,inan=sg,gen	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	73	nmod	_	prereform=горы|modern=горы|oldlemma=гора
+76	въ	в	ADP	PR	_	78	case	_	prereform=въ|modern=в|oldlemma=въ
+77	триста	триста	NUM	NUM=acc	Case=Nom|NumForm=Word|NumType=Card	78	nummod:gov	_	prereform=триста|modern=триста|oldlemma=триста
+78	сажень	сажень	NOUN	S,f,inan=pl,gen=anom	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	75 (должно быть 67: это отдельная основа более низкого уровня, соотносящаяся с предложением со сказуемым «стоитъ», представленная составным именным сказуемым с опущенным глаголом-связкой с несогласованной именной частью)	nmod	_	prereform=сажень|modern=сажень|oldlemma=сажень|SpaceAfter=No
+79	,	,	PUNCT	_	_	82	(должно быть 78: это запятая закрывающая отдельную основу более низкого уровня, соотносящуюся с предложением со сказуемым «стоитъ», представленную составным именным сказуемым с опущенным глаголом-связкой с несогласованной именной частью)	punct	_	prereform=,|modern=,|oldlemma=,
+80	за	за	ADP	PR	_	82	case	_	prereform=за|modern=за|oldlemma=за
+81	семью	семь	NUM	NUM=ins	Case=Ins|NumForm=Word|NumType=Card	82	nummod	_	prereform=семью|modern=семью|oldlemma=семь
+82	дверьми	дверь	NOUN	S,f,inan=pl,ins	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	70	conj	_	prereform=дверьми|modern=дверьми|oldlemma=дверь
+83	желѣзными	железный	ADJ	A=pl,ins,plen	Case=Ins|Degree=Pos|Number=Plur	82	amod	_	prereform=желѣзными|modern=железными|oldlemma=желѣзный|SpaceAfter=No
+84	,	,	PUNCT	_	_	87	punct	_	prereform=,|modern=,|oldlemma=,
+85	за	за	ADP	PR	_	87	case	_	prereform=за|modern=за|oldlemma=за
+86	семью	семь	NUM	NUM=ins	Case=Ins|NumForm=Word|NumType=Card	87	nummod	_	prereform=семью|modern=семью|oldlemma=семь
+87	замками	замок	NOUN	S,m,inan=pl,ins	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	82	conj	_	prereform=замками|modern=замками|oldlemma=замок
+88	нѣмецкими	немецкий	ADJ	A=pl,ins,plen	Case=Ins|Degree=Pos|Number=Plur	87	amod	_	prereform=нѣмецкими|modern=немецкими|oldlemma=нѣмецкий|SpaceAfter=No
+89	,	,	PUNCT	_	_	91	punct	_	prereform=,|modern=,|oldlemma=,
+90	и	и	CCONJ	CONJ	_	91	cc	_	prereform=и|modern=и|oldlemma=и
+91	ведутъ	вести	VERB	V,ipf,tran=pl,act,praes,3p,indic	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	conj	_	prereform=ведутъ|modern=ведут|oldlemma=вести
+92	къ	к	ADP	PR	_	94	case	_	prereform=къ|modern=к|oldlemma=къ
+93	тому	тот	DET	A-PRO=m,sg,dat	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	94	det	_	prereform=тому|modern=тому|oldlemma=тот
+94	терему	терем	NOUN	S,m,inan=sg,dat	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	91	obl	_	prereform=терему|modern=терему|oldlemma=терем
+95	ступеней	ступень	NOUN	S,f,inan=pl,gen	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	91 (скорее всего, должно быть 97, точного ответа, как разбирать такие словосочетания с атрибутивной связью я не нашел, но грамматически хозяева устанавливаются так: 1)три 2)(от три)тысячи 3)(от тысячи) ступеней)	nsubj	_	prereform=ступеней|modern=ступеней|oldlemma=ступень
+96	три	три	NUM	NUM=nom	Case=Nom|NumForm=Word|NumType=Card	97 (скорее всего, должно быть 91, точного ответа, как разбирать такие словосочетания с атрибутивной связью я не нашел, но грамматически хозяева устанавливаются так: 1)три 2)(от три)тысячи 3)(от тысячи) ступеней)	nummod:gov	_	prereform=три|modern=три|oldlemma=три
+97	тысячи	тысяча	NOUN	S,f,inan=sg,gen	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	94 (скорее всего, должно быть 96, точного ответа, как разбирать такие словосочетания с атрибутивной связью я не нашел, но грамматически хозяева устанавливаются так: 1)три 2)(от три)тысячи 3)(от тысячи) ступеней)	nummod	_	prereform=тысячи|modern=тысячи|oldlemma=тысяча|SpaceAfter=No
+98	,	,	PUNCT	_	_	103	punct	_	prereform=,|modern=,|oldlemma=,
+99	и	и	CCONJ	CONJ	_	103	cc	_	prereform=и|modern=и|oldlemma=и
+100	на	на	ADP	PR	_	102	case	_	prereform=на|modern=на|oldlemma=на
+101	каждой	каждый	DET	A-PRO=f,sg,loc	Case=Loc|Gender=Fem|Number=Sing|PronType=Tot	102	det	_	prereform=каждой|modern=каждой|oldlemma=каждый
+102	ступени	ступень	NOUN	S,f,inan=sg,loc	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	103	obl	_	prereform=ступени|modern=ступени|oldlemma=ступень
+103	стоитъ	стоять	VERB	V,ipf,intr,act=sg,praes,3p,indic	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	91	conj	_	prereform=стоитъ|modern=стоит|oldlemma=стоит
+104	по	по	ADP	PR	_	105	case	_	prereform=по|modern=по|oldlemma=по
+105	воину	воин	NOUN	S,m,anim=sg,dat	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	103	nsubj	_	prereform=воину|modern=воину|oldlemma=воин
+106	персидскому	персидский	ADJ	A=m,sg,dat,plen	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	105	amod	_	prereform=персидскому|modern=персидскому|oldlemma=персидский
+107	и	и	CCONJ	CONJ	_	108	cc	_	prereform=и|modern=и|oldlemma=и
+108	день	день	NOUN	S,m,inan=sg,acc	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	103	obl:tmod	_	prereform=день|modern=день|oldlemma=день
+109	и	и	CCONJ	CONJ	_	110	cc	_	prereform=и|modern=и|oldlemma=и
+110	ночь	ночь	NOUN	S,f,inan=sg,acc	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	108	conj	_	prereform=ночь|modern=ночь|oldlemma=ночь|SpaceAfter=No
+111	,	,	PUNCT	_	_	113	punct	_	prereform=,|modern=,|oldlemma=,
+112	съ	с	ADP	PR	_	113	case	_	prereform=съ|modern=с|oldlemma=съ
+113	саблею	сабля	NOUN	S,f,inan=sg,ins	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	103 (должно быть 105: это несогласованное определение к «воину»)	obl	_	prereform=саблею|modern=саблею|oldlemma=саблей
+114	на	на	ADP	_	_	115	case	_	Modern=Split|oldlemma=на
+115	голó	голо	ADV	ADV	Degree=Pos	113	advmod	_	prereform=голó|modern=наголо|oldlemma=голь
+116	булатною	булатный	ADJ	A=f,sg,ins,plen	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	113	amod	_	prereform=булатною|modern=булатною|oldlemma=булатный|SpaceAfter=No
+117	,	,	PUNCT	_	_	124	punct	_	prereform=,|modern=,|oldlemma=,
+118	и	и	CCONJ	CONJ	_	124	cc	_	prereform=и|modern=и|oldlemma=и
+119	ключи	ключ	NOUN	S,m,inan=pl,acc	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	124	obj	_	prereform=ключи|modern=ключи|oldlemma=ключ
+120	отъ	от	ADP	PR	_	122	case	_	prereform=отъ|modern=от|oldlemma=отъ
+121	тѣхъ	тот	DET	A-PRO=pl,gen	Case=Gen|Number=Plur|PronType=Dem	122	det	_	prereform=тѣхъ|modern=тех|oldlemma=тѣхъ
+122	дверей	дверь	NOUN	S,f,inan=pl,gen	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	119	nmod	_	prereform=дверей|modern=дверей|oldlemma=дверь
+123	желѣзныихъ	железный	ADJ	A=pl,gen,plen=anom	Case=Gen|Degree=Pos|Number=Plur	122	amod	_	prereform=желѣзныихъ|modern=железныих|oldlemma=желѣзныих
+124	носитъ	носить	VERB	V,ipf,tran=sg,act,praes,3p,indic	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	conj	_	prereform=носитъ|modern=носит|oldlemma=носитъ
+125	королевишна	королевишна	NOUN	S,f,anim=sg,nom	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	124	nsubj	_	prereform=королевишна|modern=королевишна|oldlemma=королевишна
+126	на	на	ADP	PR	_	127	case	_	prereform=на|modern=на|oldlemma=на
+127	поясѣ	пояс	NOUN	S,m,inan=sg,loc	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	124	obl	_	prereform=поясѣ|modern=поясе|oldlemma=пояс|SpaceAfter=No
+128	.	.	PUNCT	_	_	1	punct	_	prereform=.|modern=.|oldlemma=.~
+
+# sent_id = 11 не вижу ошибок
+# text = Не вози ты мнѣ золотой и серебряной парчи, ни черныхъ соболей сибирскіихъ, ни ожерелья бурмицкаго, ни вѣнца самоцвѣтнаго, ни тувалета хрустальнаго, а привези ты мнѣ аленькій цвѣточикъ, котораго бы не было краше на бѣлóмъ свѣтѣ».
+1	Не	не	PART	PART	Polarity=Neg	2	advmod	_	prereform=Не|modern=Не|oldlemma=не
+2	вози	возить	VERB	V,ipf,tran=sg,act,2p,imper	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	prereform=вози|modern=вози|oldlemma=возить
+3	ты	ты	PRON	S-PRO,sg,2p=nom	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	prereform=ты|modern=ты|oldlemma=ты
+4	мнѣ	я	PRON	S-PRO,sg,1p=dat	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	prereform=мнѣ|modern=мне|oldlemma=я
+5	золотой	золотой	ADJ	A=f,sg,gen,plen	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	prereform=золотой|modern=золотой|oldlemma=золотой
+6	и	и	CCONJ	CONJ	_	7	cc	_	prereform=и|modern=и|oldlemma=и
+7	серебряной	серебряный	ADJ	A=f,sg,gen,plen	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	conj	_	prereform=серебряной|modern=серебряной|oldlemma=серебряный
+8	парчи	парча	NOUN	S,f,inan=sg,gen	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obj	_	prereform=парчи|modern=парчи|oldlemma=парча|SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	prereform=,|modern=,|oldlemma=,
+10	ни	ни	CCONJ	CONJ	Polarity=Neg	12	cc	_	prereform=ни|modern=ни|oldlemma=ни
+11	черныхъ	черный	ADJ	A=pl,gen,plen	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	prereform=черныхъ|modern=чёрных|oldlemma=черный
+12	соболей	соболь	NOUN	S,m,anim=pl,gen	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	conj	_	prereform=соболей|modern=соболей|oldlemma=соболь
+13	сибирскіихъ	сибирский	ADJ	A=pl,gen,plen	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	prereform=сибирскіихъ|modern=сибирских|oldlemma=сибирскіиха|SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	prereform=,|modern=,|oldlemma=,
+15	ни	ни	CCONJ	CONJ	Polarity=Neg	16	cc	_	prereform=ни|modern=ни|oldlemma=ни
+16	ожерелья	ожерелье	NOUN	S,n,inan=sg,gen	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	conj	_	prereform=ожерелья|modern=ожерелья|oldlemma=ожерелье
+17	бурмицкаго	бурмицкий	ADJ	A=n,sg,gen,plen	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	prereform=бурмицкаго|modern=бурмицкого|oldlemma=бурмицкаг|SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	prereform=,|modern=,|oldlemma=,
+19	ни	ни	CCONJ	CONJ	Polarity=Neg	20	cc	_	prereform=ни|modern=ни|oldlemma=ни
+20	вѣнца	венец	NOUN	S,m,inan=sg,gen	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	conj	_	prereform=вѣнца|modern=венца|oldlemma=вѣнец
+21	самоцвѣтнаго	самоцветный	ADJ	A=m,sg,gen,plen	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	prereform=самоцвѣтнаго|modern=самоцветного|oldlemma=самоцвѣтный|SpaceAfter=No
+22	,	,	PUNCT	_	_	24	punct	_	prereform=,|modern=,|oldlemma=,
+23	ни	ни	CCONJ	CONJ	Polarity=Neg	24	cc	_	prereform=ни|modern=ни|oldlemma=ни
+24	тувалета	тувалет	NOUN	S,m,inan=sg,gen	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	conj	_	prereform=тувалета|modern=тувалета|oldlemma=тувалет
+25	хрустальнаго	хрустальный	ADJ	A=m,sg,gen,plen	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	prereform=хрустальнаго|modern=хрустального|oldlemma=хрустальный|SpaceAfter=No
+26	,	,	PUNCT	_	_	28	punct	_	prereform=,|modern=,|oldlemma=,
+27	а	а	CCONJ	CONJ	_	28	cc	_	prereform=а|modern=а|oldlemma=а
+28	привези	привезти	VERB	V,pf,tran=sg,act,2p,imper	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	2	conj	_	prereform=привези|modern=привези|oldlemma=привезить
+29	ты	ты	PRON	S-PRO,sg,2p=nom	Case=Nom|Number=Sing|Person=2|PronType=Prs	28	nsubj	_	prereform=ты|modern=ты|oldlemma=ты
+30	мнѣ	я	PRON	S-PRO,sg,1p=dat	Case=Dat|Number=Sing|Person=1|PronType=Prs	28	iobj	_	prereform=мнѣ|modern=мне|oldlemma=я
+31	аленькій	аленький	ADJ	A=m,sg,acc,inan,plen	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	prereform=аленькій|modern=аленький|oldlemma=аленький
+32	цвѣточикъ	цветочек	NOUN	S,m,inan=sg,acc	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	obj	_	prereform=цвѣточикъ|modern=цветочек|oldlemma=цвѣточикъ|SpaceAfter=No
+33	,	,	PUNCT	_	_	38	punct	_	prereform=,|modern=,|oldlemma=,
+34	котораго	который	PRON	A-PRO=m,sg,gen	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	38	nsubj	_	prereform=котораго|modern=которого|oldlemma=который
+35	бы	бы	AUX	PART	Mood=Cnd	38	aux	_	prereform=бы|modern=бы|oldlemma=бы
+36	не	не	PART	PART	Polarity=Neg	38	advmod	_	prereform=не|modern=не|oldlemma=не
+37	было	быть	AUX	V,ipf,intr,act=n,sg,praet,indic	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	38	cop	_	prereform=было|modern=было|oldlemma=быть
+38	краше	красивый	ADJ	A=comp	Degree=Cmp	32	acl:relcl	_	prereform=краше|modern=краше|oldlemma=краша
+39	на	на	ADP	PR	_	41	case	_	prereform=на|modern=на|oldlemma=на
+40	бѣлóмъ	белый	ADJ	A=m,sg,loc,plen	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	41	amod	_	prereform=бѣлóмъ|modern=белом|oldlemma=бѣлóм
+41	свѣтѣ	свет	NOUN	S,m,inan=sg,loc	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	38	obl	_	prereform=свѣтѣ|modern=свете|oldlemma=свѣт|SpaceAfter=No
+42	»	»	PUNCT	_	_	2	punct	_	prereform=»|modern=»|oldlemma=»|SpaceAfter=No
+43	.	.	PUNCT	_	_	2	punct	_	prereform=.|modern=.|oldlemma=.|SpacesAfter=\n\n~
+
+# sent_id = 13
+# text = Мало ли, много ли времени онъ думалъ, доподлинно сказать не могу; надумавшись онъ цалуетъ, ласкаетъ, приголубливаетъ свою меньшую дочь любимую и говоритъ таковыя слова: «Ну, задала ты мнѣ работу потяжеле сестриныхъ; коли знаешь, что искать, то какъ не сыскать, а какъ найти то, чего самъ не знаешь?
+1	Мало	мало	NUM	ADV	Case=Acc|NumForm=Word|NumType=Card	6	nummod:gov	_	prereform=Мало|modern=Мало|oldlemma=мало
+2	ли	ли	PART	PART	_	1	advmod	_	prereform=ли|modern=ли|oldlemma=ли|SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	prereform=,|modern=,|oldlemma=,
+4	много	много	NUM	NUM=acc	Case=Acc|NumForm=Word|NumType=Card	1	conj	_	prereform=много|modern=много|oldlemma=много
+5	ли	ли	PART	CONJ	_	4	advmod	_	prereform=ли|modern=ли|oldlemma=ли
+6	времени	время	NOUN	S,n,inan=sg,gen	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl:tmod	_	prereform=времени|modern=времени|oldlemma=время
+7	онъ	он	PRON	S-PRO,m,sg,3p=nom	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	prereform=онъ|modern=он|oldlemma=онъ
+8	думалъ	думать	VERB	V,ipf,intr,act=m,sg,praet,indic	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	ccomp	_	prereform=думалъ|modern=думал|oldlemma=думать|SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	prereform=,|modern=,|oldlemma=,
+10	доподлинно	доподлинно	ADV	ADV	Degree=Pos	11	advmod	_	prereform=доподлинно|modern=доподлинно|oldlemma=доподлинно
+11	сказать	сказать	VERB	V,pf,tran=inf,act	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	prereform=сказать|modern=сказать|oldlemma=сказать
+12	не	не	PART	PART	Polarity=Neg	13	advmod	_	prereform=не|modern=не|oldlemma=не
+13	могу	мочь	VERB	V,ipf,intr,act=sg,praes,1p,indic	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	prereform=могу|modern=могу|oldlemma=мочь|SpaceAfter=No
+14	;	;	PUNCT	_	_	17	punct	_	prereform=;|modern=;|oldlemma=;
+15	надумавшись	надуматься	VERB	V,pf,intr,med=ger,praet	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Mid	16 (должно быть 17: деепричастие может иметь в качестве хозяина только глагол)	advcl	_	prereform=надумавшись|modern=надумавшись|oldlemma=надуматься|modernAfter=,
+16	онъ	он	PRON	S-PRO,m,sg,3p=nom	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	prereform=онъ|modern=он|oldlemma=онъ
+17	цалуетъ	целовать	VERB	V,ipf,tran=sg,act,praes,3p,indic	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	prereform=цалуетъ|modern=целует|oldlemma=цалует|SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	prereform=,|modern=,|oldlemma=,
+19	ласкаетъ	ласкать	VERB	V,ipf,tran=sg,act,praes,3p,indic	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	prereform=ласкаетъ|modern=ласкает|oldlemma=ласкать|SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	prereform=,|modern=,|oldlemma=,
+21	приголубливаетъ	приголубливать	VERB	V,ipf,tran=sg,act,praes,3p,indic	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	prereform=приголубливаетъ|modern=приголубливает|oldlemma=приголубливаесть
+22	свою	свой	DET	A-PRO=f,sg,acc	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	24	det	_	prereform=свою|modern=свою|oldlemma=свой
+23	меньшую	меньшой	ADJ	A,sg=f,acc,plen	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	prereform=меньшую|modern=меньшую|oldlemma=меньший
+24	дочь	дочь	NOUN	S,f,anim=sg,acc	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	prereform=дочь|modern=дочь|oldlemma=дочь
+25	любимую	любимый	ADJ	A=f,sg,acc,plen	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	prereform=любимую|modern=любимую|oldlemma=любимый
+26	и	и	CCONJ	CONJ	_	27	cc	_	prereform=и|modern=и|oldlemma=и
+27	говоритъ	говорить	VERB	V,ipf,tran=sg,act,praes,3p,indic	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	prereform=говоритъ|modern=говорит|oldlemma=говоритъть
+28	таковыя	таковой	DET	A-PRO=pl,acc,inan	Animacy=Inan|Case=Acc|Number=Plur|PronType=Dem	29	det	_	prereform=таковыя|modern=таковые|oldlemma=таковой
+29	слова	слово	NOUN	S,n,inan=pl,acc	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	27	obj	_	prereform=слова|modern=слова|oldlemma=слово|SpaceAfter=No
+30	:	:	PUNCT	_	_	34	punct	_	prereform=:|modern=:|oldlemma=:
+31	«	«	PUNCT	_	_	34	punct	_	prereform=«|modern=«|oldlemma=«|SpaceAfter=No
+32	Ну	ну	PART	PART	_	34	discourse	_	prereform=Ну|modern=Ну|oldlemma=ну|SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	prereform=,|modern=,|oldlemma=,
+34	задала	задать	VERB	V,pf,tran=f,sg,act,praet,indic	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	29 (должно быть 27, так как эта основа соотносится именно с глаголом говорения, который как бы вызывает ее)	parataxis	_	prereform=задала|modern=задала|oldlemma=задать
+35	ты	ты	PRON	S-PRO,sg,2p=nom	Case=Nom|Number=Sing|Person=2|PronType=Prs	34	nsubj	_	prereform=ты|modern=ты|oldlemma=ты
+36	мнѣ	я	PRON	S-PRO,sg,1p=dat	Case=Dat|Number=Sing|Person=1|PronType=Prs	34	iobj	_	prereform=мнѣ|modern=мне|oldlemma=я
+37	работу	работа	NOUN	S,f,inan=sg,acc	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	34	obj	_	prereform=работу|modern=работу|oldlemma=работа
+38	потяжеле	тяжелый	ADJ	A=comp2	Degree=Cmp	37	amod	_	prereform=потяжеле|modern=потяжеле|oldlemma=тяжелый
+39	сестриныхъ	сестрин	ADJ	A=pl,gen,plen	Case=Gen|Degree=Pos|Number=Plur	38	obl	_	prereform=сестриныхъ|modern=сестриных|oldlemma=сестриныха|SpaceAfter=No
+40	;	;	PUNCT	_	_	50	punct	_	prereform=;|modern=:|oldlemma=;
+41	коли	коли	SCONJ	CONJ	_	42	mark	_	prereform=коли|modern=коли|oldlemma=коли
+42	знаешь	знать	VERB	V,ipf,tran=sg,act,praes,2p,indic	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	50	advcl	_	prereform=знаешь|modern=знаешь|oldlemma=знать|SpaceAfter=No
+43	,	,	PUNCT	_	_	45	punct	_	prereform=,|modern=,|oldlemma=,
+44	что	что	PRON	S-PRO,n,sg=acc	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	45	obj	_	prereform=что|modern=что|oldlemma=что
+45	искать	искать	VERB	V,ipf,tran=inf,act	Aspect=Imp|VerbForm=Inf|Voice=Act	42	ccomp	_	prereform=искать|modern=искать|oldlemma=искать|SpaceAfter=No
+46	,	,	PUNCT	_	_	42	punct	_	prereform=,|modern=,|oldlemma=,
+47	то	то	SCONJ	CONJ	_	50	mark	_	prereform=то|modern=то|oldlemma=то
+48	какъ	как	ADV	ADV-PRO	Degree=Pos|PronType=Int	50	advmod	_	prereform=какъ|modern=как|oldlemma=какъ
+49	не	не	PART	PART	Polarity=Neg	50	advmod	_	prereform=не|modern=не|oldlemma=не
+50	сыскать	сыскать	VERB	V,pf,tran=inf,act	Aspect=Perf|VerbForm=Inf|Voice=Act	34	xcomp	_	prereform=сыскать|modern=сыскать|oldlemma=сыскать|SpaceAfter=No
+51	,	,	PUNCT	_	_	54	punct	_	prereform=,|modern=,|oldlemma=,
+52	а	а	CCONJ	CONJ	_	54	cc	_	prereform=а|modern=а|oldlemma=а
+53	какъ	как	ADV	ADV-PRO	Degree=Pos|PronType=Int	54	advmod	_	prereform=какъ|modern=как|oldlemma=какъ
+54	найти	найти	VERB	V,pf,tran=inf,act	Aspect=Perf|VerbForm=Inf|Voice=Act	34	conj	_	prereform=найти|modern=найти|oldlemma=найти
+55	то	то	PRON	S-PRO,n,sg=acc	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	54	obj	_	prereform=то|modern=то|oldlemma=то|SpaceAfter=No
+56	,	,	PUNCT	_	_	60	punct	_	prereform=,|modern=,|oldlemma=,
+57	чего	что	PRON	S-PRO,n,sg=gen	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Rel	60	obj	_	prereform=чего|modern=чего|oldlemma=что
+58	самъ	сам	DET	A-PRO=m,sg,nom	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	60	obl	_	prereform=самъ|modern=сам|oldlemma=сам
+59	не	не	PART	PART	Polarity=Neg	60	advmod	_	prereform=не|modern=не|oldlemma=не
+60	знаешь	знать	VERB	V,ipf,tran=sg,act,praes,2p,indic	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	55	acl	_	prereform=знаешь|modern=знаешь|oldlemma=знать|SpaceAfter=No
+61	?	?	PUNCT	_	_	54 (трудно сказать, с какой конкретно частью предложения соотносится вопрос с точки зрения пунктуации: можно сказать, что он замыкает все предложение, тогда стоит написать 13; можно сказать, что он соотносится только с прямой речью (что выглядит адекватнее предыдущего врианта) – тогда 34; но, если честно, мне больше всего нравится как раз уже представленный вариант 54, т.е. знак вопроса соотносится конкретно с основой, которая формулирует вопрос. Ничего полезного в теории я не нашел, и вообще этот момент с точки зрения индивидуального восприятия всегда был мне неясен) punct	_	prereform=?|modern=?|oldlemma=?~
+
